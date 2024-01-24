@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    tools:context=".NewNote">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/resource__" />
+
+    <LinearLayout
+        style="@style/MyTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="690dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Text"
+                    style="@style/MyTextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/oi"
+                    android:gravity="center"
+                    android:text="Заголовок"
+                    android:textColor="@color/hotPink"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/textp1"
+                    style="@style/MyTextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/marck_script"
+                    android:gravity="left"
+                    android:text="Напиши здесь всё, что ты думаешь"
+                    android:textColor="@color/darkBlue"
+                    android:textSize="24sp" />
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonBack"
+                style="@style/MyTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/beige"
+                android:fontFamily="@font/oi"
+                android:text="назад"
+                android:textColor="@color/hotPink" />
+
+            <Button
+                android:id="@+id/buttonDelete"
+                style="@style/MyTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/hotPink"
+                android:fontFamily="@font/oi"
+                android:text="удалить"
+                android:textColor="@color/beige" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonChange"
+            style="@style/MyTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/sky"
+            android:fontFamily="@font/oi"
+            android:text="изменить"
+            android:textColor="@color/beige" />
+
+        <TextView
+            android:id="@+id/textDate"
+            style="@style/MyTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/marck_script"
+            android:textColor="@color/darkBlue" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

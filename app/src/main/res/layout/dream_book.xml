@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    tools:context=".DreamBook">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/resource__" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="48dp">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/oi"
+            android:gravity="center"
+            android:text="Сонник"
+            android:textColor="@color/hotPink"
+            android:textSize="30sp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="710dp">
+
+            <LinearLayout
+                android:id="@+id/container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/container1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/oi"
+                        android:gravity="center"
+                        android:text="Арбуз"
+                        android:textColor="@color/darkBlue"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/content1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/open_sans_italic"
+                        android:gravity="left"
+                        android:text="Снится к беременности или встрече с детьми, остерегайся новых сочетаний в еде."
+                        android:textColor="@color/darkBlue"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/container2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/oi"
+                        android:gravity="center"
+                        android:text="Больница"
+                        android:textColor="@color/darkBlue"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/content2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/open_sans_italic"
+                        android:gravity="left"
+                        android:text="Если в твоём сне ты оказываешься в больнице, жди неприятностей, возможно это предупреждение о простуде или более сильных осложнениях."
+                        android:textColor="@color/darkBlue"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/container3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/oi"
+                        android:gravity="center"
+                        android:text="Виноград"
+                        android:textColor="@color/darkBlue"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/content3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/open_sans_italic"
+                        android:gravity="left"
+                        android:text="Виноград снится к большим праздникам или нежданным гостям."
+                        android:textColor="@color/darkBlue"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/container30"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text30"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/oi"
+                        android:gravity="center"
+                        android:text="Горизонт"
+                        android:textColor="@color/darkBlue"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/content30"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/open_sans_italic"
+                        android:gravity="left"
+                        android:text="Наступает период, когда перед вами откроются широкие жизненные перспективы. Однако, это еще не значит, что вы сможете использовать все свои шансы без остатка."
+                        android:textColor="@color/darkBlue"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/container4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/oi"
+                        android:gravity="center"
+                        android:text="Дерево"
+                        android:textColor="@color/darkBlue"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/content4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/open_sans_italic"
+                        android:gravity="left"
+                        android:text="Тебе необходимо побыть с собой наедине, дерево признак мудрости, возможно во время размышлений наедине, к тебе придёт превосходная идея."
+                        android:textColor="@color/darkBlue"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/container5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/oi"
+                        android:gravity="center"
+                        android:text="Еда"
+                        android:textColor="@color/darkBlue"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/content5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/open_sans_italic"
+                        android:gravity="left"
+                        android:text="Если в твоём сне обилие блюд, то жди большой любви. Если еды мало, то необходимо проявить чувства к ближнему."
+                        android:textColor="@color/darkBlue"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/container6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/oi"
+                        android:gravity="center"
+                        android:text="Ёж"
+                        android:textColor="@color/darkBlue"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/content6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/open_sans_italic"
+                        android:gravity="left"
+                        android:text="Ёж - хищник. Поэтому обрати внимание на своё окружение. Возможно рядом с тобй находятся не те люди, которыми стоит себя окружать."
+                        android:textColor="@color/darkBlue"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/container7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/oi"
+                        android:gravity="center"
+                        android:text="Жизнь"
+                        android:textColor="@color/darkBlue"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/content7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/open_sans_italic"
+                        android:gravity="left"
+                        android:text="Если тебе снится твоя повседневная жизнь, то это означает, что ты пытаешься сбежать от реальности в мир снов. Пора менять свою жизнь к лучшему, пусть она станет похожей на сон."
+                        android:textColor="@color/darkBlue"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/container8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/oi"
+                        android:gravity="center"
+                        android:text="Зима"
+                        android:textColor="@color/darkBlue"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/content8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/open_sans_italic"
+                        android:gravity="left"
+                        android:text="Увидеть снег во сне как любовное свидание. Если он засыпает тело, ждите успеха, а если не касается тела — траур в семье. "
+                        android:textColor="@color/darkBlue"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/container9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/oi"
+                        android:gravity="center"
+                        android:text="Изба"
+                        android:textColor="@color/darkBlue"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/content9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/open_sans_italic"
+                        android:gravity="left"
+                        android:text="Такой сон означает близкие перемены, которые будут не к лучшему, вам предстоит тяжелая работа."
+                        android:textColor="@color/darkBlue"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/container10"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/oi"
+                        android:gravity="center"
+                        android:text="Йогурт"
+                        android:textColor="@color/darkBlue"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/content10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/open_sans_italic"
+                        android:gravity="left"
+                        android:text="Йогурт снится в знак веселья, грядущих приятных событий, встречи с друзьями"
+                        android:textColor="@color/darkBlue"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/container11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/oi"
+                        android:gravity="center"
+                        android:text="Капуста"
+                        android:textColor="@color/darkBlue"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/content11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/open_sans_italic"
+                        android:gravity="left"
+                        android:text="Крупная капуста снится к увеличению дохода. мелкая — к прибыли; огромная — к флирту с коллегой."
+                        android:textColor="@color/darkBlue"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/container12"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/oi"
+                        android:gravity="center"
+                        android:text="Лодка"
+                        android:textColor="@color/darkBlue"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/content12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/open_sans_italic"
+                        android:gravity="left"
+                        android:text="Если снится сама лодка - тебя манит новая любовная интрижка; если ты плывёшь в ней - непостоянная верность; если видишь тонущую - конец завязанной интриги."
+                        android:textColor="@color/darkBlue"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/container13"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/oi"
+                        android:gravity="center"
+                        android:text="Мама"
+                        android:textColor="@color/darkBlue"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/content13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/open_sans_italic"
+                        android:gravity="left"
+                        android:text="Мама снится к спокойствию и стабильности."
+                        android:textColor="@color/darkBlue"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/container14"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/oi"
+                        android:gravity="center"
+                        android:text="Ночь"
+                        android:textColor="@color/darkBlue"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/content14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/open_sans_italic"
+                        android:gravity="left"
+                        android:text="Ночь - темная - разумные расчеты; ясная - долгая жизнь; бурная - вам угрожают потери."
+                        android:textColor="@color/darkBlue"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/container15"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/oi"
+                        android:gravity="center"
+                        android:text="Озеро"
+                        android:textColor="@color/darkBlue"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/content15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/open_sans_italic"
+                        android:gravity="left"
+                        android:text="Сон про озеро — некий намек на излишнюю скованность и предсказуемость в интимной сфере."
+                        android:textColor="@color/darkBlue"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/container16"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/oi"
+                        android:gravity="center"
+                        android:text="Паук"
+                        android:textColor="@color/darkBlue"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/content16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/open_sans_italic"
+                        android:gravity="left"
+                        android:text="Видеть во сне паука — к общению с крайне неприятными людьми. Паутина во сне говорит о бедности и нищете."
+                        android:textColor="@color/darkBlue"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/container17"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/oi"
+                        android:gravity="center"
+                        android:text="Рассвет"
+                        android:textColor="@color/darkBlue"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/content17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/open_sans_italic"
+                        android:gravity="left"
+                        android:text="Наблюдать рассвет во сне — означает успешные начинания, но только в том случае, если в предрассветной мгле вы не можете разглядеть окружающее. Рассвет - удача и успех во всех делах."
+                        android:textColor="@color/darkBlue"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/container18"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/oi"
+                        android:gravity="center"
+                        android:text="Сова"
+                        android:textColor="@color/darkBlue"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/content18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/open_sans_italic"
+                        android:gravity="left"
+                        android:text="Увидеть сову — предвещает, что вы будете тайно оклеветаны или подвергнетесь опасности нападения."
+                        android:textColor="@color/darkBlue"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/container19"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/oi"
+                        android:gravity="center"
+                        android:text="Тайга"
+                        android:textColor="@color/darkBlue"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/content19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/open_sans_italic"
+                        android:gravity="left"
+                        android:text="Пространство - результат чьих-то трудов, появление этого символа связано с внутренней работой спящего, с теми усилиями, которые он прилагает для своего душевного развития."
+                        android:textColor="@color/darkBlue"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/container20"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/oi"
+                        android:gravity="center"
+                        android:text="Улитка"
+                        android:textColor="@color/darkBlue"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/content20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/open_sans_italic"
+                        android:gravity="left"
+                        android:text="Улитки ассоциируются с терпением и стойкостью. Сон об улитке может символизировать стремление человека идти по жизни с твердой решимостью."
+                        android:textColor="@color/darkBlue"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/container21"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/oi"
+                        android:gravity="center"
+                        android:text="Фея"
+                        android:textColor="@color/darkBlue"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/content21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/open_sans_italic"
+                        android:gravity="left"
+                        android:text="Добрая фея во сне – знак пробуждения светлых чувств. Такие сны часто предвещают любовь и очарование."
+                        android:textColor="@color/darkBlue"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/container22"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/oi"
+                        android:gravity="center"
+                        android:text="Хризантема"
+                        android:textColor="@color/darkBlue"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/content22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/open_sans_italic"
+                        android:gravity="left"
+                        android:text="Хризантема из сна олицетворяет знакомого вам человека, который попал в сложную жизненную ситуацию."
+                        android:textColor="@color/darkBlue"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/container23"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text23"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/oi"
+                        android:gravity="center"
+                        android:text="Цирк"
+                        android:textColor="@color/darkBlue"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/content23"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/open_sans_italic"
+                        android:gravity="left"
+                        android:text="Сновидение, в котором вы посетили или были актером цирка, сулит насмешки со стороны окружающих."
+                        android:textColor="@color/darkBlue"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/container24"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text24"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/oi"
+                        android:gravity="center"
+                        android:text="Человек"
+                        android:textColor="@color/darkBlue"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/content24"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/open_sans_italic"
+                        android:gravity="left"
+                        android:text="Если снится человек определенный и это происходит практически каждую ночь, постарайтесь разобраться в себе."
+                        android:textColor="@color/darkBlue"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/container25"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text25"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/oi"
+                        android:gravity="center"
+                        android:text="Шоколад"
+                        android:textColor="@color/darkBlue"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/content25"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/open_sans_italic"
+                        android:gravity="left"
+                        android:text="Шоколад снится к финансовому благополучию. Вам могут предложить выгодную сделку или деловое предложение."
+                        android:textColor="@color/darkBlue"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/container26"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text26"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/oi"
+                        android:gravity="center"
+                        android:text="Щенок"
+                        android:textColor="@color/darkBlue"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/content26"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/open_sans_italic"
+                        android:gravity="left"
+                        android:text="Щенок в сновидении символизирует ребенка. Сон о щенке для девушки говорит о том, что вскоре она влюбится в человека, который будет несколько младше её по возрасту."
+                        android:textColor="@color/darkBlue"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/container27"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text27"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/oi"
+                        android:gravity="center"
+                        android:text="Эхо"
+                        android:textColor="@color/darkBlue"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/content27"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/open_sans_italic"
+                        android:gravity="left"
+                        android:text="Слышать во сне эхо – предвещает, что для вас настали печальные времена. Серьезная болезнь вынудит вас оставить работу, а ваши друзья покинут вас в трудную минуту."
+                        android:textColor="@color/darkBlue"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/container28"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text28"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/oi"
+                        android:gravity="center"
+                        android:text="Юла"
+                        android:textColor="@color/darkBlue"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/content28"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/open_sans_italic"
+                        android:gravity="left"
+                        android:text="Видеть во сне бездействующую юлу - знак застоя, апатии, подавленности, которые пройдут не скоро. Если во сне юла вертится, то это означает, что в ближайшее время события в вашей жизни будут развиваться так быстро, что вы не будете успевать обдумывать происходящее."
+                        android:textColor="@color/darkBlue"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/container29"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text29"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/oi"
+                        android:gravity="center"
+                        android:text="Яхта"
+                        android:textColor="@color/darkBlue"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/content29"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/open_sans_italic"
+                        android:gravity="left"
+                        android:text="Как правило, яхта ассоциируется с отдыхом, а потому видение яхты во сне нужно интерпретировать как желание расслабиться и отвлечься от будничной суеты."
+                        android:textColor="@color/darkBlue"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/buttonBack"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/beige"
+            android:fontFamily="@font/oi"
+            android:text="назад"
+            android:textColor="@color/hotPink"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.93" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
